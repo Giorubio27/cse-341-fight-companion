@@ -1,0 +1,20 @@
+{
+  "name": "cse-341-fight-companion",
+  "version": "1.0.0",
+  "description": "my cse project2",
+  "homepage": "https://github.com/Giorubio27/cse-341-fight-companion#readme",
+  "bugs": {
+    "url": "https://github.com/Giorubio27/cse-341-fight-companion/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giorubio27/cse-341-fight-companion.git"
+  },
+  "license": "ISC",
+  "author": "Giovanni Rubio",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
