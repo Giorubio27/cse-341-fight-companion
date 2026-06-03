@@ -5,10 +5,10 @@
     "description": "API documentation for the Fight Companion application",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse-341-fight-companion.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
@@ -421,6 +421,10 @@
     "Fight": {
       "type": "object",
       "properties": {
+        "eventCode": {
+          "type": "string",
+          "example": "UFC300"
+        },
         "fighterOne": {
           "type": "string",
           "example": "Alex Pereira"
