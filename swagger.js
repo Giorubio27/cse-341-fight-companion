@@ -7,8 +7,8 @@ const doc = {
         title: 'Fight Companion API',
         description: 'API documentation for the Fight Companion application',
     },
-    host: 'localhost:3000',
-    schemes: ['http'],
+    host: 'cse-341-fight-companion.onrender.com',
+    schemes: ['https'],
 
     definitions: {
         Event: {
@@ -22,6 +22,7 @@ const doc = {
             
         },
         Fight: {
+            eventCode: "UFC300",
             fighterOne: "Alex Pereira",
             fighterTwo: "Jamahal Hill",
             weightClass: "Light Heavyweight",

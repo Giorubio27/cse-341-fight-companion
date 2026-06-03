@@ -61,7 +61,12 @@ const createFight = async (req, res) => {
 const updateFight = async (req, res) => {
     //#swagger.tags = ['Fights']
     try {
-        const fightId = new ObjectId(req.params.id);
+        const stringId = req.params.id;
+        if (!stringId || stringId.length !== 24) {
+            return res.status(400).json({ message: "Invalid fight ID" });
+        }
+        const fightId = new ObjectId(stringId);
+
         const updatedFight = {
     
             fighterOne: req.body.fighterOne,
@@ -74,7 +79,7 @@ const updateFight = async (req, res) => {
             
         }
         const response = await mongodb.getDb().collection('fights').updateOne({ _id: fightId }, { $set: updatedFight });
-        if (response.modifiedCount > 0) {
+        if (response.modifiedCount > 0 || response.matchedCount > 0) {
             res.status(204).send();
         } else {
             res.status(500).json({ message: "error in updating the fight" });
