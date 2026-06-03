@@ -1,0 +1,33 @@
+## Get all events
+GET http://localhost:3000/events
+
+### Get a single contact
+GET http://localhost:3000/contacts/6a076a1cab28a80a6b4d36bf
+
+### Create a new contact
+POST http://localhost:3000/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "yamcha",
+    "lastName": "blaze",
+    "email": "johnny.blaze@example.com",
+    "favoriteColor": "green",
+    "birthday": "06/19/2000"
+}
+
+### Update an existing contact
+PUT http://localhost:3000/contacts/6a076a1cab28a80a6b4d36bf HTTP/1.1
+Content-Type: application/json
+
+{
+  "_id": "6a10a20d8b42bed2c9cdb29c",
+  "firstName": "romney",
+  "lastName": "blaze",
+  "email": "jdoe@test.com",
+  "favoriteColor": "teal",
+  "birthday": "1990-05-15"
+}       
+
+### Delete a contact
+DELETE http://localhost:3000/contacts/6a10a5244b1898f6788cdb29

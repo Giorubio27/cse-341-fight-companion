@@ -1,0 +1,52 @@
+[
+  {
+    "eventCode": "UFC300",
+    "fighterOne": "Alex Pereira",
+    "fighterTwo": "Jamahal Hill",
+    "weightClass": "Light Heavyweight",
+    "scheduledRounds": 5,
+    "mainEvent": true,
+    "weightLimitLbs": 205,
+    "tags": ["Championship", "Main Event"]
+  },
+  {
+    "eventCode": "UFC300",
+    "fighterOne": "Weili Zhang",
+    "fighterTwo": "Xiaonan Yan",
+    "weightClass": "Strawweight",
+    "scheduledRounds": 5,
+    "mainEvent": false,
+    "weightLimitLbs": 115,
+    "tags": ["Championship", "Co-Main Event"]
+  },
+  {
+    "eventCode": "UFC300",
+    "fighterOne": "Justin Gaethje",
+    "fighterTwo": "Max Holloway",
+    "weightClass": "Lightweight",
+    "scheduledRounds": 5,
+    "mainEvent": false,
+    "weightLimitLbs": 155,
+    "tags": ["BMF Title", "Fan Favorite"]
+  },
+  {
+    "eventCode": "UFC301",
+    "fighterOne": "Alexandre Pantoja",
+    "fighterTwo": "Steve Erceg",
+    "weightClass": "Flyweight",
+    "scheduledRounds": 5,
+    "mainEvent": true,
+    "weightLimitLbs": 125,
+    "tags": ["Championship", "Main Event"]
+  },
+  {
+    "eventCode": "UFC301",
+    "fighterOne": "Jonathan Martinez",
+    "fighterTwo": "Jose Aldo",
+    "weightClass": "Bantamweight",
+    "scheduledRounds": 3,
+    "mainEvent": false,
+    "weightLimitLbs": 135,
+    "tags": ["Legend Return", "Co-Main Event"]
+  }
+]

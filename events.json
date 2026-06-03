@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "65f1a2b3c4d5e6f7a8b90101",
+    "eventCode": "UFC300",
+    "title": "UFC 300: Pereira vs. Hill",
+    "date": "2024-04-13T22:00:00.000Z",
+    "venue": "T-Mobile Arena",
+    "city": "Las Vegas",
+    "country": "USA",
+    "broadcastNetwork": "ESPN+ PPV"
+  },
+  {
+    "_id": "65f1a2b3c4d5e6f7a8b90102",
+    "eventCode": "UFC301",
+    "title": "UFC 301: Pantoja vs. Erceg",
+    "date": "2024-05-04T22:00:00.000Z",
+    "venue": "Jeunesse Arena",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "broadcastNetwork": "ESPN+"
+  }
+]
