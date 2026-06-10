@@ -19,11 +19,19 @@
     "dev": "node swagger.js && nodemon server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "express-validator": "^7.3.2",
     "mongodb": "^7.2.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "present": "^1.0.0",
+    "scripts": "^0.1.0",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
