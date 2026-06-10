@@ -31,6 +31,7 @@ app
     .use(passport.session())
     .use(cors({ methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH'] }))
     .use(cors({ origin: '*' }))
+    .use(cors({ allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Z-Key'] }));
     
 
 
