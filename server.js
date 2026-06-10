@@ -53,7 +53,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser((user, done) => {
-    done(null)
+    done(null, user)
 })
 
 
