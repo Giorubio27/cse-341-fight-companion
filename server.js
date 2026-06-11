@@ -21,6 +21,7 @@ app.use((req, res, next) => {
     next();
 });
 app.use(bodyParser.json());
+
 app.use(session({
     secret: "secret",
     resave: false,
