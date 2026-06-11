@@ -60,7 +60,7 @@ passport.deserializeUser((user, done) => {
 
 
 app.get('/github/callback', passport.authenticate('github', {
-    failureRedirect: '/api-docs', session: false
+    failureRedirect: '/api-docs', session: true
 }),
     (req, res) => {
         req.session.user = req.user;
